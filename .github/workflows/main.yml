@@ -1,15 +1,22 @@
-name: Deploy to HF Space
-on: { push: { branches: [main] }, workflow_dispatch: {} }
+name: 🚀 Deploy ke Hugging Face
+
+on:
+  push:
+    branches: [ main ]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with: { fetch-depth: 0, lfs: true }
-      - name: Push to HF Space (force)
-        env: { HF_TOKEN: ${{ secrets.HF_TOKEN }} }
+      - name: 🔎 Checkout kode (non-shallow)
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Ambil seluruh history, penting!
+
+      - name: 🔁 Push ke Hugging Face
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote add space https://Kings-Bilbil:${HF_TOKEN}@huggingface.co/spaces/Kings-Bilbil/tugasoop
-          git push --force space HEAD:main
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+          git remote add hf https://Kings-Bilbil:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Kings-Bilbil/tugasoop
+          git push -f hf main
