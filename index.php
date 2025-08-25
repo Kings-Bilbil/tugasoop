@@ -10,7 +10,7 @@ if ($page === 'home') {
 <html lang="id">
 <head>
   <meta charset="utf-8">
-  <title>Index PHP Sederhana</title>
+  <title>Index PHP</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px}
@@ -19,12 +19,11 @@ if ($page === 'home') {
   </style>
 </head>
 <body>
-  <h1>Halo dari index.php 👋</h1>
+  <h1>Halo, selamat datang di index! 👋</h1>
   <div class="card">
-    <p>Ini halaman index sederhana untuk tugas PBO (PHP). Coba buka halaman Home:</p>
+    <p>Berikut merupakan halaman index sederhana:</p>
     <ul>
-      <li><a href="/home.php">/home.php</a></li>
-      <li><a href="/?page=home">/?page=home</a> (routing query)</li>
+      <li><a href="/home.php">Home</a></li>
     </ul>
   </div>
 </body>
