@@ -24,7 +24,7 @@ if ($page === 'home') {
     <p>Berikut merupakan halaman index sederhana:</p>
     <ul>
       <li><a href="/home.php">Home</a></li>
-      <li><a href="/Hasil.php">Tugas 1</a><li>
+      <li><a href="/Hasil1.php">Tugas 1</a><li>
     </ul>
   </div>
 </body>
