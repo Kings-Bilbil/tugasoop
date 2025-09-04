@@ -16,6 +16,22 @@ if ($page === 'home') {
     body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px}
     a{text-decoration:none}
     .card{border:1px solid #ddd;border-radius:12px;padding:16px}
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #007bff; /* Warna latar tombol */
+      border: none; /* Menghilangkan garis tepi */
+      border-radius: 8px;
+      color: white; /* Warna teks tombol */
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease; /* Efek transisi warna saat kursor di atasnya */
+    }
+    button:hover {
+      background: #0056b3; /* Menggelapkan warna latar tombol */
+    }
   </style>
 </head>
 <body>
@@ -26,6 +42,7 @@ if ($page === 'home') {
       <li><a href="/home.php">Home</a></li>
       <li><a href="/Hasil1.php">Tugas 1</a><li>
     </ul>
+    <button type="submit" href="/home.php">Home</button>
   </div>
 </body>
 </html>
