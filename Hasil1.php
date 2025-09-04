@@ -37,6 +37,8 @@ $hasilLuas = $persegiPanjang->hitungLuas();
     <style>
         body {
             display: flex;
+            height:100vh;
+            justify-content: center;
             font-family: sans-serif;
             line-height: 1.6;
             padding: 20px;
