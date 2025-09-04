@@ -36,6 +36,7 @@ $hasilLuas = $persegiPanjang->hitungLuas();
     <title>Hasil Perhitungan Persegi Panjang</title>
     <style>
         body {
+            display: flex;
             font-family: sans-serif;
             line-height: 1.6;
             padding: 20px;
