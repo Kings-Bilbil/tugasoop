@@ -45,6 +45,7 @@ $hasilLuas = $persegiPanjang->hitungLuas();
             padding: 15px;
             border-radius: 5px;
             width: 300px;
+            align-items: center;
         }
     </style>
 </head>
