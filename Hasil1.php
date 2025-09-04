@@ -39,13 +39,14 @@ $hasilLuas = $persegiPanjang->hitungLuas();
             font-family: sans-serif;
             line-height: 1.6;
             padding: 20px;
+            align-items: center;
+
         }
         .container {
             border: 1px solid #ccc;
             padding: 15px;
             border-radius: 5px;
             width: 300px;
-            align-items: center;
         }
     </style>
 </head>
