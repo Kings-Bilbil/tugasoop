@@ -79,7 +79,7 @@ if ($page === 'home') {
     <a href="/Latian3.php" class="button-link">Latihan 3</a>
     <a href="/TgsMandiri.php.php" class="button-link">Tugas Mandiri</a>
   </div>
-  wo
+  w
 </div>
 </body>
 </html>
