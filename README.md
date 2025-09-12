@@ -11,7 +11,7 @@ pinned: false
 
 Repositori contoh tugas:
 - index.php dan home.php sederhana.
-- Deploy otomatis ke *Hugging Face Spaces* (type: Docker) via GitHub Actions.
+- Deploy otomatis ke *Hugging Face Spaces* (type: Docker) via GitHub Actios.
 
 ## Run lokal
 ```bash
