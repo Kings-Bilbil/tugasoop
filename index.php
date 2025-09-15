@@ -77,9 +77,9 @@ if ($page === 'home') {
     <a href="/Latihan1.php" class="button-link">Latihan 1</a>
     <a href="/Latian2.php" class="button-link">Latihan 2</a>
     <a href="/Latian3.php" class="button-link">Latihan 3</a>
-    <a href="/TgsMandiri.php.php" class="button-link">Tugas Mandiri</a>
+    <a href="/tgsmandiri.php" class="button-link">Tugas Mandiri</a>
+    <a href="/objeksegitiga.php" class="button-link">Menghitung Segitiga</a>
   </div>
-  s
 </div>
 </body>
 </html>
